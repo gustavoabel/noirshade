@@ -13,22 +13,42 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gustavoabel.noirshade"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.gustavoabel.noirshade"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
-    "plugins": [
-      "expo-router"
-    ],
+    "expo": {
+      "plugins": [
+        "expo-router",
+        [
+          "react-native-vision-camera",
+          {
+            "enableMicrophonePermission": true,
+            "cameraPermissionText": "$(PRODUCT_NAME) needs access to your Camera.",
+            "microphonePermissionText": "$(PRODUCT_NAME) needs access to your Microphone."
+          }
+        ],
+        [
+          "expo-media-library",
+          {
+            "photosPermission": "Allow $(PRODUCT_NAME) to access your photos.",
+            "savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos.",
+            "isAccessMediaLocationEnabled": true
+          }
+        ]
+      ]
+    },
     "experiments": {
       "typedRoutes": true
     }
