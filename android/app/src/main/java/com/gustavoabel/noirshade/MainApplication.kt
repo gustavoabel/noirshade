@@ -1,4 +1,4 @@
-package com.gustavoabel.obscuryo
+package com.gustavoabel.noirshade
 
 import android.app.Application
 import android.content.res.Configuration

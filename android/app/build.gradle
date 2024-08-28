@@ -109,9 +109,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.gustavoabel.obscuryo'
+    namespace 'com.gustavoabel.noirshade'
     defaultConfig {
-        applicationId 'com.gustavoabel.obscuryo'
+        applicationId 'com.gustavoabel.noirshade'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

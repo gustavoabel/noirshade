@@ -1,4 +1,4 @@
-package com.gustavoabel.obscuryo
+package com.gustavoabel.noirshade
 
 import android.os.Build
 import android.os.Bundle

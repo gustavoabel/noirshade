@@ -4,7 +4,7 @@ export default function HomeScreen() {
 
 return (
   <Text style={styles.title}>
-    Hello Obscuryo! 
+    Hello Noirshade! 
     </Text>
   )
 }

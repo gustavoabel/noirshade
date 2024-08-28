@@ -1,6 +1,6 @@
 {
-  "name": "obscuryo",
-  "main": "expo-router/entry",
+  "name": "noirshade",
+  "main": "expo/AppEntry.js",
   "version": "1.0.0",
   "scripts": {
     "start": "expo start",
@@ -16,14 +16,12 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.2",
-    "@react-navigation/native": "^6.0.2",
     "expo": "~51.0.28",
     "expo-blur": "~13.0.2",
     "expo-constants": "~16.0.2",
     "expo-font": "~12.0.9",
     "expo-linking": "~6.3.1",
     "expo-media-library": "~16.0.4",
-    "expo-router": "~3.5.23",
     "expo-splash-screen": "~0.27.5",
     "expo-status-bar": "~1.12.1",
     "expo-system-ui": "~3.0.7",

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "obscuryo",
-    "slug": "obscuryo",
+    "name": "noirshade",
+    "slug": "noirshade",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -23,34 +23,23 @@
       },
       "package": "com.gustavoabel.noirshade"
     },
-    "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
-    },
-    "expo": {
-      "plugins": [
-        "expo-router",
-        [
-          "react-native-vision-camera",
-          {
-            "enableMicrophonePermission": true,
-            "cameraPermissionText": "$(PRODUCT_NAME) needs access to your Camera.",
-            "microphonePermissionText": "$(PRODUCT_NAME) needs access to your Microphone."
-          }
-        ],
-        [
-          "expo-media-library",
-          {
-            "photosPermission": "Allow $(PRODUCT_NAME) to access your photos.",
-            "savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos.",
-            "isAccessMediaLocationEnabled": true
-          }
-        ]
+    "plugins": [
+      [
+        "react-native-vision-camera",
+        {
+          "enableMicrophonePermission": true,
+          "cameraPermissionText": "$(PRODUCT_NAME) needs access to your Camera.",
+          "microphonePermissionText": "$(PRODUCT_NAME) needs access to your Microphone."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos.",
+          "savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos.",
+          "isAccessMediaLocationEnabled": true
+        }
       ]
-    },
-    "experiments": {
-      "typedRoutes": true
-    }
+    ]
   }
 }
